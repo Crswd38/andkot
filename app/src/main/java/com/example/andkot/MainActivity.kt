@@ -1,5 +1,6 @@
 package com.example.andkot
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.TextView
 import androidx.activity.ComponentActivity
@@ -14,6 +15,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.andkot.ui.theme.AndKotTheme
 
 class MainActivity : ComponentActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
