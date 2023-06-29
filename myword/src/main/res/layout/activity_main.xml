@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#50f0ff00">
+    android:background="@drawable/goldbg2">
 
     <TextView
         android:id="@+id/textView"
@@ -14,7 +14,8 @@
         android:padding="15dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
-        android:layout_weight="20"/>
+        android:layout_weight="20"
+        android:textColor="#000000"/>
 
     <View
         android:layout_width="match_parent"
