@@ -1,4 +1,4 @@
-package com.example.andkot
+package com.example.mylayout
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -12,6 +12,6 @@ class MainActivity : ComponentActivity() {
         setContentView(R.layout.activity_main)
 
         val textView = findViewById<TextView>(R.id.textView2)
-        textView.text = "android Start"
+        textView.text = "android Module Start"
     }
 }
